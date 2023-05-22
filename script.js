@@ -5,16 +5,17 @@ const input = document.querySelector("input");
 
 Array.from(buttons).forEach((button) => {
   button.addEventListener("click", calc);
-  button.addEventListener("touch", calc);
+  button.addEventListener("touchstart", calc);
 });
 
 function calc(e) {
+  e.preventDefault();
   let innerElement = e.target.innerHTML;
   console.log(innerElement);
   if (innerElement === "X") innerElement = "*";
 
   if (innerElement == "=") {
-    expression = eval(expression);
+    expression = String(eval(expression));
     input.value = expression;
   }
   //
@@ -30,7 +31,7 @@ function calc(e) {
       last_string = expr_array.at(-2);
     }
 
-    const xp1 = "1234567890 )".includes(last_string.at(-1));
+    const xp1 = "1234567890 .)".includes(last_string.at(-1));
     console.log(expr_array);
     console.log(last_string);
     console.log(xp1);
@@ -55,8 +56,8 @@ function calc(e) {
   }
   //
   else {
-    const xp1 = "1234567890".includes(expression.at(-1));
-    const xp2 = "1234567890".includes(innerElement);
+    const xp1 = "1234567890.".includes(expression.at(-1));
+    const xp2 = "1234567890.".includes(innerElement);
 
     if (xp1 ^ xp2) {
       expression += "  ";
