@@ -4,9 +4,9 @@ const buttons = document.querySelectorAll("button");
 const input = document.querySelector("input");
 
 Array.from(buttons).forEach((button) => {
-  button.addEventListener("click", calc);
-  button.addEventListener("touchstart", calc);
-  button.addEventListener("touchend", ()=>{ console.log("touchOut"); });
+  button.addEventListener("click", (e)=> calc(e));
+  button.addEventListener("touchstart", (e) => calc(e));
+  // button.addEventListener("touchend", ()=>{ console.log("touchOut"); });
 });
 
 function calc(e) {
