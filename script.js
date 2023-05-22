@@ -6,10 +6,11 @@ const input = document.querySelector("input");
 Array.from(buttons).forEach((button) => {
   button.addEventListener("click", calc);
   button.addEventListener("touchstart", calc);
+  button.addEventListener("touchend", ()=>{ console.log("touchOut"); });
 });
 
 function calc(e) {
-  //e.preventDefault();
+  e.preventDefault();
   let innerElement = e.target.innerHTML;
   console.log(innerElement);
   if (innerElement === "X") innerElement = "*";
