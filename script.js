@@ -9,7 +9,7 @@ Array.from(buttons).forEach((button) => {
 });
 
 function calc(e) {
-  e.preventDefault();
+  //e.preventDefault();
   let innerElement = e.target.innerHTML;
   console.log(innerElement);
   if (innerElement === "X") innerElement = "*";
@@ -32,9 +32,7 @@ function calc(e) {
     }
 
     const xp1 = "1234567890 .)".includes(last_string.at(-1));
-    console.log(expr_array);
-    console.log(last_string);
-    console.log(xp1);
+    
     if (expr_array.length == 1 || !xp1) return;
 
     expression = "";
