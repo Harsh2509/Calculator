@@ -1,0 +1,41 @@
+.white-t-c{
+    color: white;
+}
+
+.dark-blue-bgnd{
+    background-color: rgb(19, 100, 241);
+}
+.dark-blue-bgnd:hover{
+    background-color: rgba(19, 100, 241, 0.657);
+}
+
+.sky-blue-bgnd{
+    background-color: rgb(87, 197, 240);
+}
+.sky-blue-bgnd:hover{
+    background-color: rgb(134, 214, 246);
+}
+
+.bottom-margin{
+    margin-bottom: 5%;
+}
+
+.gray-bgnd{
+    background-color: rgb(181, 179, 179);
+}
+.gray-bgnd:hover{
+    background-color: rgb(203, 201, 201);
+}
+
+.button-22-w{
+    width: 22%;
+    border-radius: 50%;
+}
+
+.button-44-w{
+    width: 44%;
+    border-radius: 30px;
+    text-align: left;
+    padding-left: 30px;
+    font-weight: 600;
+}
