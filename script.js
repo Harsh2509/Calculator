@@ -4,9 +4,8 @@ const buttons = document.querySelectorAll("button");
 const input = document.querySelector("input");
 
 Array.from(buttons).forEach((button) => {
-  button.addEventListener("click", (e)=> calc(e));
-  button.addEventListener("touchstart", (e) => calc(e));
-  // button.addEventListener("touchend", ()=>{ console.log("touchOut"); });
+  button.addEventListener("click", calc);
+  button.addEventListener("touchstart", calc);
 });
 
 function calc(e) {
@@ -55,8 +54,8 @@ function calc(e) {
   }
   //
   else {
-    const xp1 = "1234567890.".includes(expression.at(-1));
-    const xp2 = "1234567890.".includes(innerElement);
+    const xp1 = "1234567890. ".includes(expression.at(-1));
+    const xp2 = "1234567890. ".includes(innerElement);
 
     if (xp1 ^ xp2) {
       expression += "  ";
