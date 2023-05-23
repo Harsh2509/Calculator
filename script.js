@@ -5,7 +5,7 @@ const input = document.querySelector("input");
 
 Array.from(buttons).forEach((button) => {
   button.addEventListener("click", calc);
-  button.addEventListener("touchstart", calc);
+  button.addEventListener("touchstart", calc, {passive:false});
 });
 
 function calc(e) {
