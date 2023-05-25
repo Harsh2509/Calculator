@@ -5,7 +5,7 @@ const input = document.querySelector("input");
 
 Array.from(buttons).forEach((button) => {
   button.addEventListener("click", calc);
-  button.addEventListener("touchstart", calc, {passive:false});
+  button.addEventListener("touchstart", calc);
 });
 
 function calc(e) {
@@ -15,7 +15,7 @@ function calc(e) {
   if (innerElement === "X") innerElement = "*";
 
   if (innerElement == "=") {
-    expression = String(eval(expression));
+    expression = String(eval(input.value));
     input.value = expression;
   }
   //
