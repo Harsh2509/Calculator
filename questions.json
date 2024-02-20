@@ -1,0 +1,417 @@
+[
+  {
+    "question": "What is the extension for HTML file?",
+    "answers": [
+      { "text": ".css", "correct": false },
+      { "text": ".js", "correct": false },
+      { "text": ".html", "correct": true },
+      { "text": ".tsx", "correct": false }
+    ]
+  },
+  {
+    "question": "What does CSS stand for?",
+    "answers": [
+      { "text": "Cascading Style Sheet", "correct": true },
+      { "text": "Computer Style Sheet", "correct": false },
+      { "text": "Creative Style Sheet", "correct": false },
+      { "text": "Colorful Style Sheet", "correct": false }
+    ]
+  },
+  {
+    "question": "In programming, what does API stand for?",
+    "answers": [
+      { "text": "Application Programming Interface", "correct": true },
+      { "text": "Advanced Program Integration", "correct": false },
+      { "text": "Automated Program Interface", "correct": false },
+      { "text": "Application Process Interface", "correct": false }
+    ]
+  },
+  {
+    "question": "Which programming language is known as the 'mother of all languages'?",
+    "answers": [
+      { "text": "C", "correct": false },
+      { "text": "Java", "correct": false },
+      { "text": "Assembly", "correct": false },
+      { "text": "Fortran", "correct": true }
+    ]
+  },
+  {
+    "question": "What is the purpose of the 'git clone' command?",
+    "answers": [
+      { "text": "To create a new branch", "correct": false },
+      { "text": "To merge branches", "correct": false },
+      { "text": "To copy a repository", "correct": true },
+      { "text": "To delete a repository", "correct": false }
+    ]
+  },
+  {
+    "question": "Which data structure follows the Last In, First Out (LIFO) principle?",
+    "answers": [
+      { "text": "Queue", "correct": false },
+      { "text": "Stack", "correct": true },
+      { "text": "Linked List", "correct": false },
+      { "text": "Tree", "correct": false }
+    ]
+  },
+  {
+    "question": "What does SQL stand for?",
+    "answers": [
+      { "text": "Structured Language", "correct": false },
+      { "text": "Standard Query Language", "correct": true },
+      { "text": "Sequential Query Language", "correct": false },
+      { "text": "Scripted Query Language", "correct": false }
+    ]
+  },
+  {
+    "question": "In web development, what does AJAX stand for?",
+    "answers": [
+      { "text": "Asynchronous JavaScript and XML", "correct": true },
+      { "text": "Advanced JavaScript and XML", "correct": false },
+      { "text": "Asynchronous Java and XHTML", "correct": false },
+      { "text": "Advanced JSON and XHTML", "correct": false }
+    ]
+  },
+  {
+    "question": "Which sorting algorithm has the worst time complexity in most cases?",
+    "answers": [
+      { "text": "QuickSort", "correct": false },
+      { "text": "MergeSort", "correct": false },
+      { "text": "BubbleSort", "correct": true },
+      { "text": "InsertionSort", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the purpose of the 'npm' command in Node.js?",
+    "answers": [
+      { "text": "Node Package Manager", "correct": true },
+      { "text": "New Project Module", "correct": false },
+      { "text": "Node Project Manager", "correct": false },
+      { "text": "Node Package Module", "correct": false }
+    ]
+  },
+
+  {
+    "question": "What does the acronym HTML stand for?",
+    "answers": [
+      { "text": "Hypertext Markup Language", "correct": true },
+      { "text": "High-Level Text Language", "correct": false },
+      { "text": "Hyperlink and Text Markup Language", "correct": false },
+      { "text": "Hypertext Multilayer Language", "correct": false }
+    ]
+  },
+  {
+    "question": "Which programming paradigm does JavaScript primarily follow?",
+    "answers": [
+      { "text": "Functional Programming", "correct": false },
+      { "text": "Object-Oriented Programming", "correct": true },
+      { "text": "Procedural Programming", "correct": false },
+      { "text": "Declarative Programming", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the purpose of the 'else' statement in programming?",
+    "answers": [
+      { "text": "To declare a variable", "correct": false },
+      {
+        "text": "To execute a block of code when a condition is false",
+        "correct": true
+      },
+      { "text": "To create a loop", "correct": false },
+      { "text": "To import external libraries", "correct": false }
+    ]
+  },
+  {
+    "question": "Which data structure is used for implementing recursion?",
+    "answers": [
+      { "text": "Queue", "correct": false },
+      { "text": "Stack", "correct": true },
+      { "text": "Array", "correct": false },
+      { "text": "Linked List", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the purpose of the 'try...catch' block in programming?",
+    "answers": [
+      { "text": "To define a function", "correct": false },
+      { "text": "To handle exceptions or errors", "correct": true },
+      { "text": "To create a loop", "correct": false },
+      { "text": "To import external libraries", "correct": false }
+    ]
+  },
+  {
+    "question": "Which of the following is not a valid programming language?",
+    "answers": [
+      { "text": "Python", "correct": false },
+      { "text": "Java", "correct": false },
+      { "text": "C#", "correct": false },
+      { "text": "HTML5", "correct": true }
+    ]
+  },
+  {
+    "question": "What is the purpose of the 'break' statement in a loop?",
+    "answers": [
+      { "text": "To exit the entire program", "correct": false },
+      {
+        "text": "To skip the current iteration and move to the next",
+        "correct": true
+      },
+      { "text": "To create a loop", "correct": false },
+      { "text": "To import external libraries", "correct": false }
+    ]
+  },
+  {
+    "question": "Which protocol is used for secure data transmission over the web?",
+    "answers": [
+      { "text": "HTTP", "correct": false },
+      { "text": "FTP", "correct": false },
+      { "text": "SSL/TLS", "correct": true },
+      { "text": "UDP", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the role of a compiler in the software development process?",
+    "answers": [
+      { "text": "To execute code line by line", "correct": false },
+      {
+        "text": "To convert high-level code into machine code",
+        "correct": true
+      },
+      { "text": "To debug code", "correct": false },
+      { "text": "To manage version control", "correct": false }
+    ]
+  },
+  {
+    "question": "Which sorting algorithm has a time complexity of O(n log n) on average?",
+    "answers": [
+      { "text": "BubbleSort", "correct": false },
+      { "text": "InsertionSort", "correct": false },
+      { "text": "MergeSort", "correct": true },
+      { "text": "SelectionSort", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the purpose of the 'typeof' operator in JavaScript?",
+    "answers": [
+      { "text": "To declare a variable", "correct": false },
+      {
+        "text": "To check the type of a variable or expression",
+        "correct": true
+      },
+      { "text": "To concatenate strings", "correct": false },
+      { "text": "To create a loop", "correct": false }
+    ]
+  },
+  {
+    "question": "In object-oriented programming, what is encapsulation?",
+    "answers": [
+      {
+        "text": "The process of converting code into machine language",
+        "correct": false
+      },
+      {
+        "text": "The bundling of data and methods that operate on the data",
+        "correct": true
+      },
+      { "text": "The use of recursion in functions", "correct": false },
+      {
+        "text": "The way functions are declared and executed",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What does the acronym API stand for in the context of web development?",
+    "answers": [
+      { "text": "Automated Program Interface", "correct": false },
+      { "text": "Application Programming Interface", "correct": true },
+      { "text": "Advanced Program Integration", "correct": false },
+      { "text": "Application Process Interface", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the purpose of the 'localStorage' in web browsers?",
+    "answers": [
+      { "text": "To store temporary variables", "correct": false },
+      {
+        "text": "To store data persistently on a user's device",
+        "correct": true
+      },
+      { "text": "To manage API requests", "correct": false },
+      { "text": "To define CSS styles", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the primary use of the SQL 'GROUP BY' clause?",
+    "answers": [
+      { "text": "To filter data based on conditions", "correct": false },
+      { "text": "To sort data in ascending order", "correct": false },
+      {
+        "text": "To group rows that have the same values in specified columns",
+        "correct": true
+      },
+      {
+        "text": "To perform mathematical calculations on numeric data",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What does the acronym DNS stand for in networking?",
+    "answers": [
+      { "text": "Dynamic Network Services", "correct": false },
+      { "text": "Domain Name System", "correct": true },
+      { "text": "Data Networking Service", "correct": false },
+      { "text": "Digital Naming Service", "correct": false }
+    ]
+  },
+  {
+    "question": "Which programming language is commonly used for machine learning and data science?",
+    "answers": [
+      { "text": "Java", "correct": false },
+      { "text": "Python", "correct": true },
+      { "text": "C++", "correct": false },
+      { "text": "Ruby", "correct": false }
+    ]
+  },
+  {
+    "question": "What does the acronym XSS stand for in web security?",
+    "answers": [
+      { "text": "Cross-Site Scripting", "correct": true },
+      { "text": "XML Style Sheet", "correct": false },
+      { "text": "Xamarin Server Script", "correct": false },
+      { "text": "Extreme Security Service", "correct": false }
+    ]
+  },
+  {
+    "question": "Which data structure is used for implementing a queue?",
+    "answers": [
+      { "text": "Stack", "correct": false },
+      { "text": "Array", "correct": false },
+      { "text": "Linked List", "correct": false },
+      { "text": "Both Array and Linked List", "correct": true }
+    ]
+  },
+  {
+    "question": "In Git, what does 'HEAD' refer to?",
+    "answers": [
+      { "text": "The main branch of the repository", "correct": false },
+      { "text": "The latest commit in the repository", "correct": true },
+      { "text": "A specific commit identified by its hash", "correct": false },
+      { "text": "The working directory of the repository", "correct": false }
+    ]
+  },
+  {
+    "question": "What does the acronym MVC stand for in the context of software architecture?",
+    "answers": [
+      { "text": "Model View Control", "correct": false },
+      { "text": "Model View Controller", "correct": true },
+      { "text": "Multiple View Control", "correct": false },
+      { "text": "Module View Controller", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the purpose of the 'this' keyword in JavaScript?",
+    "answers": [
+      { "text": "To declare a variable", "correct": false },
+      {
+        "text": "To refer to the current object in a method or function",
+        "correct": true
+      },
+      { "text": "To create a loop", "correct": false },
+      {
+        "text": "To store data persistently on a user's device",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "In networking, what does IP stand for?",
+    "answers": [
+      { "text": "Internet Protocol", "correct": true },
+      { "text": "Internal Protocol", "correct": false },
+      { "text": "Intranet Protocol", "correct": false },
+      { "text": "Interconnected Protocol", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the purpose of the 'npm install' command in Node.js?",
+    "answers": [
+      { "text": "To create a new project", "correct": false },
+      {
+        "text": "To install dependencies specified in the package.json file",
+        "correct": true
+      },
+      { "text": "To update Node.js to the latest version", "correct": false },
+      { "text": "To uninstall Node.js", "correct": false }
+    ]
+  },
+  {
+    "question": "Which sorting algorithm has a time complexity of O(n^2) in the worst case?",
+    "answers": [
+      { "text": "QuickSort", "correct": false },
+      { "text": "MergeSort", "correct": false },
+      { "text": "BubbleSort", "correct": true },
+      { "text": "InsertionSort", "correct": false }
+    ]
+  },
+  {
+    "question": "What does the acronym URL stand for in web addresses?",
+    "answers": [
+      { "text": "Uniform Resource Locator", "correct": true },
+      { "text": "Universal Resource Locator", "correct": false },
+      { "text": "Unified Resource Locator", "correct": false },
+      { "text": "User Resource Locator", "correct": false }
+    ]
+  },
+  {
+    "question": "In database terminology, what is normalization?",
+    "answers": [
+      {
+        "text": "The process of converting code into machine language",
+        "correct": false
+      },
+      {
+        "text": "The organization of data to reduce redundancy and improve efficiency",
+        "correct": true
+      },
+      { "text": "The use of recursion in functions", "correct": false },
+      {
+        "text": "The way functions are declared and executed",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which programming language is often used for front-end web development?",
+    "answers": [
+      { "text": "Java", "correct": false },
+      { "text": "Python", "correct": false },
+      { "text": "HTML", "correct": false },
+      { "text": "JavaScript", "correct": true }
+    ]
+  },
+  {
+    "question": "What is the purpose of the 'docker run' command in containerization?",
+    "answers": [
+      { "text": "To build a Docker image", "correct": false },
+      { "text": "To list all available Docker containers", "correct": false },
+      {
+        "text": "To run a Docker container based on a specified image",
+        "correct": true
+      },
+      { "text": "To stop a running Docker container", "correct": false }
+    ]
+  },
+  {
+    "question": "In Python, what does the 'range' function do?",
+    "answers": [
+      { "text": "Generates a random number", "correct": false },
+      {
+        "text": "Creates a list of numbers in a specified range",
+        "correct": true
+      },
+      { "text": "Defines the range of a for loop", "correct": false },
+      { "text": "Calculates the range of a dataset", "correct": false }
+    ]
+  }
+]
