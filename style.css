@@ -1,0 +1,37 @@
+:root{
+    --hue-neutral: 200;
+    --hue-correct: 145;
+    --hue-wrong: 0;
+}
+
+body{
+    --hue: var(--hue-neutral);
+    background-color: hsl(var(--hue), 100%, 20%);
+}
+
+.correct{
+    --hue: var(--hue-correct);
+}
+
+.wrong{
+    --hue: var(--hue-wrong);
+}
+
+.btn{
+    --hue: var(--hue-neutral);
+    background-color: hsl(var(--hue), 100%, 50%);
+    border: 2px solid hsl(var(--hue), 100%, 30%);
+}
+
+.btn.correct {
+    --hue: var(--hue-correct);
+    color: black;
+}
+  
+.btn.wrong {
+    --hue: var(--hue-wrong);
+}
+
+.hide{
+    display: none;
+}
