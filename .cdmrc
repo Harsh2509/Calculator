@@ -1,0 +1,2 @@
+tabs: ["README.md"]
+run-button: 'cd server && tsc && node ./dist/index.js'
