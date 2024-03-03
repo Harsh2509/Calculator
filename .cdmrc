@@ -1,2 +1,5 @@
 tabs: ["README.md"]
-run-button: 'cd server && tsc && node /dist/index.js'
+run-button: 'cd ~ && cd code/server && tsc && node ./dist/index.js'
+terminals: [
+    'cd server && npm i && cd ../client && npm i && npm run dev'
+]
