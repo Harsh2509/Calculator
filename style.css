@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 5% 3%;
+}
+
+textarea{
+    height: 50vh;
+    width: 100%;
+    font-size: large;
+    padding: 1% 2%;
+}
